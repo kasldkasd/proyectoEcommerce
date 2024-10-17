@@ -1,0 +1,113 @@
+body .cart .cart__item, body .products .products__item .products__img, body .products, body .banner .banner__title, body .banner, body header {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #777777;
+}
+body header {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body header .header__icon {
+  width: 40px;
+  cursor: pointer;
+}
+body header .header__img {
+  max-width: 100%;
+}
+body header .header__logo {
+  width: 100px;
+}
+body .banner {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background-image: url(../img/banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  background-position-y: 40%;
+}
+body .banner .banner__title {
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  font-weight: 600;
+  margin: 10px;
+}
+body .banner .banner__desc {
+  width: 100%;
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  opacity: 60%;
+  margin: 0 auto;
+}
+body .products {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+body .products .products__item {
+  cursor: pointer;
+  text-align: center;
+}
+body .products .products__item .products__img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+body .products h3 {
+  margin: 0px;
+}
+body .products p {
+  margin-top: 0px;
+}
+body .cart {
+  width: 450px;
+  background-color: #ffffff;
+  height: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  position: fixed;
+  right: 0%;
+  top: 100px;
+  box-shadow: -19px -1px 50px -15px #777777;
+  /* Horizontal | Vertical | Desenfoque | Propagacion | color */
+}
+body .cart .cart__titulo {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+}
+body .cart .cart__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #777777;
+  padding: 15px;
+}
+body .cart .cart__img {
+  width: 30px;
+  margin-bottom: 5px;
+}
+body .cart .cart__descripcion {
+  font-size: clamp(1.2rem, 1vw, 2rem);
+}
+body .cart .cart__icon {
+  width: 30px;
+  cursor: pointer;
+}
+body .cart .cart__product {
+  width: 70px;
+}
+body .cart .cart__descripcion--bold {
+  font-weight: bold;
+}/*# sourceMappingURL=estilo.css.map */
