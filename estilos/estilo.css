@@ -57,7 +57,11 @@ body .products {
 }
 body .products .products__item {
   cursor: pointer;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 body .products .products__item .products__img {
   width: 200px;
