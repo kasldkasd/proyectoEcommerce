@@ -135,6 +135,7 @@ body footer .flexfooter .informacion .informacion__opciones li {
   margin-top: 10px;
   font-size: clamp(0.8rem, 1.2vw, 1.3rem);
   list-style: none;
+  cursor: pointer;
 }
 body footer .flexfooter .informacion .informacion__opciones li a {
   all: unset;
